@@ -41,3 +41,34 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Firebase-related sensitive files
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+assets/.env
+lib/firebase_options.dart
+
+# iOS-specific
+ios/Pods/
+ios/Podfile.lock
+ios/Flutter/Flutter.framework/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.podspec
+ios/Runner.xcworkspace
+ios/Runner/Debug.xcconfig
+ios/Runner/Release.xcconfig
+ios/project.pbxproj
+ios/Runner/Info.plist
+
+# macOS-specific
+macos/Pods/
+macos/Podfile.lock
+macos/Flutter/Flutter.framework/
+macos/Flutter/App.framework/
+macos/Flutter/Flutter.podspec
+macos/Runner.xcworkspace
+macos/Runner/Debug.xcconfig
+macos/Runner/Release.xcconfig
+
+# Logs
+*.log
